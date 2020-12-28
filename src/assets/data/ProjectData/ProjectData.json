@@ -1,5 +1,109 @@
 [
     
+
+
+
+
+
+
+
+
+
+    {
+        "id": 1,
+        "category": "projJquery",
+        "name": "Virtual Dressing Room",
+        "shortDesc": "Cyberlearn Virtual Dressing Room",
+        "type": "html/sass",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://virtualdressingroom.netlify.app/",
+            "linkGithub": "https://github.com/xbphamvn/jquery_dressingRoom.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/jquery/dressing_room/dressing_room_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/jquery/dressing_room/dressing_room_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/jquery/dressing_room/dressing_room_03.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/jquery/dressing_room/dressing_room_04.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/jquery/dressing_room/dressing_room_05.png",
+                "status": ""
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
     
     
     {
