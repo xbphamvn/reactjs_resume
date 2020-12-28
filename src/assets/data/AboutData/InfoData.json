@@ -1,0 +1,6 @@
+[
+    {"name": "fullName", "icon": "fas fa-user-circle", "title": "Full name:", "detail": "Phạm Văn Bách" },
+    {"name": "address", "icon": "fas fa-map-marker-alt", "title": "Address:", "detail": "Bắc Từ Liêm - Hà Nội" },
+    {"name": "email", "icon": "fas fa-envelope", "title": "Email:", "detail": "xbphamvn@gmail.com" },
+    {"name": "phoneNum", "icon": "fas fa-phone-alt", "title": "Phone:", "detail": "0382 68 36 77" }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Experience", 
+        "detail": [
+            {"milestone": "May 2020 - Current", "title": "Frontend Developer Course", "label": "CyberLearn.Vn Academy", "content": ["Learn Programming Language through frontend projects using ReactJS, RESTful API, HTML, CSS, Javascript technologies - and related libraries of above mentioned Programming Language.", "Basic training about Java, OOP, Github."]},
+            {"milestone": "May 2019 - Current", "title": "Business Assitiant", "label": "EVE FINE International Co.,Ltd.", "content": ["Support and guide customers to choose Mitsubishi Electric products that fit with technical requirement.", "Then, send customers the quotation. Make the procedures to take goods from warehouse and handover them to customers."]},
+            {"milestone": "Nov 2012 - Jun 2015", "title": "Material Controller ", "label": "LILAMA Corp,.", "content": ["Supervise and control in the taking equipments/materials process of LILAMA's subsidiaries at LILAMA warehouse and EPC contractor warehouse!"]}
+        ]
+    },
+    {
+        "title": "Education", 
+        "detail": [
+            {"milestone": "May 2020 - Current", "title": "Student", "label": "CyberLearn.Vn Academy", "content": ["Frontend Developer Training Course"]},
+            {"milestone": "Nov 2017 - Current", "title": "Student", "label": "Singapore International Academy", "content": ["English for Life Training Course"]},
+            {"milestone": "Aug 2007 - Feb 2012", "title": "Student", "label": "National University of Civil Engineering", "content": ["Construction Machinery Training Course"]}
+        ]
+    }
+]

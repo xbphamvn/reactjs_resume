@@ -1,0 +1,56 @@
+[
+    { "id": 1, "category": "projReactJs", "imgSrc": "./img/projects/project_1.jpg", "name": "Resume Project", "shortDesc": "A Resume/CV online!","type": "react js", "classIcon": "fad fa-photo-video", "detail": {
+        "linkDemo": "xbphamvn.epizy.com/",
+        "linkGithub": "github.com",
+        "date": "25 Dec 2020",
+        "desc": ["A resume page!", "A resume page!", "A resume page!"],
+        "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+    },
+    "gallery": [{"imgSrc": "./img/projects/project_1.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_1.jpg", "status": ""}, {"imgSrc": "./img/projects/project_1.jpg", "status": ""} ]
+},
+    { "id": 2, "category": "projReactJs", "imgSrc": "./img/projects/project_2.jpg", "name": "Project2", "shortDesc": "Lorem ipsum dolor sit!","type": "html/css", "classIcon": "fad fa-photo-video", "detail": {
+        "linkDemo": "abcde.com",
+        "linkGithub": "github.com",
+        "date": "25 Dec 2020",
+        "desc": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"],
+        "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+    },
+    "gallery": [{"imgSrc": "./img/projects/project_2.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_2.jpg", "status": ""}, {"imgSrc": "./img/projects/project_2.jpg", "status": ""} ]
+},
+    { "id": 3, "category": "projReactJs", "imgSrc": "./img/projects/project_3.jpg", "name": "Project3", "shortDesc": "Lorem ipsum dolor sit!","type": "html/css/js", "classIcon": "fad fa-photo-video", "detail": {
+        "linkDemo": "abcdef.com",
+        "linkGithub": "github.com",
+        "date": "25 Nov 2020",
+        "desc": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"],
+        "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+    },
+    "gallery": [{"imgSrc": "./img/projects/project_3.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_3.jpg", "status": ""}, {"imgSrc": "./img/projects/project_3.jpg", "status": ""} ]
+},
+    { "id": 4, "category": "projReactJs", "imgSrc": "./img/projects/project_4.jpg", "name": "Project4", "shortDesc": "Lorem ipsum dolor sit!","type": "html", "classIcon": "fad fa-photo-video", "detail": {
+        "linkDemo": "abcdef.com",
+        "linkGithub": "github.com",
+        "date": "25 Nov 2020",
+        "desc": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"],
+        "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+    },
+    "gallery": [{"imgSrc": "./img/projects/project_4.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_4.jpg", "status": ""}, {"imgSrc": "./img/projects/project_4.jpg", "status": ""} ]
+},
+    { "id": 5, "category": "projHtmlJs", "imgSrc": "./img/projects/project_5.jpg", "name": "Project5", "shortDesc": "Lorem ipsum dolor sit!","type": "html", "classIcon": "fad fa-photo-video", "detail": {
+        "linkDemo": "abc.com",
+        "linkGithub": "github.com",
+        "date": "25 Oct 2020",
+        "desc": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"],
+        "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+    },
+    "gallery": [{"imgSrc": "./img/projects/project_5.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_5.jpg", "status": ""}, {"imgSrc": "./img/projects/project_5.jpg", "status": ""} ]
+},
+{ "id": 6, "category": "projHtmlCss", "imgSrc": "./img/projects/project_6.jpg", "name": "Project6", "shortDesc": "Lorem ipsum dolor sit!","type": "html", "classIcon": "fad fa-photo-video", "detail": {
+    "linkDemo": "abc.com",
+    "linkGithub": "github.com",
+    "date": "25 Oct 2020",
+    "desc": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"],
+    "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+},
+"gallery": [{"imgSrc": "./img/projects/project_6.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_5.jpg", "status": ""}, {"imgSrc": "./img/projects/project_4.jpg", "status": ""} ]
+}
+]

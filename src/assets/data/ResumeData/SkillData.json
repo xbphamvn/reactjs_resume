@@ -1,0 +1,6 @@
+[
+    {"name": "reactjs", "classIcon": "fab fa-react", "title": "React JS", "skillList": ["React Component - Hook", "Higher-Order Components", "React Router & API", "Libraries: Redux Saga/Thunk, Axios, Styled Components, React Spring, Ant Design, Formik, Yup, Tiny MCE, etc,."]},
+    {"name": "htmlCssJs", "classIcon": "fab fa-js-square", "title": "HTML/CSS/JS", "skillList": ["HTML/HTML5", "CSS3/SASS/SCSS", "Animation/Keyframe", "ES5/ES6/DOM", "Prototype/Class", "Ajax, Async/await", "Libraries: Bootstrap, w3school, basic JQuery, etc,."]},
+    {"name": "otherSkills", "classIcon": "fas fa-clipboard-list", "title": "Other skills", "skillList": ["Basic OOP, Java, Github", "English communication", "MS Office, Photoshop"]},
+    {"name": "furtherSkills", "classIcon": "fas fa-users", "title": "Further  skills", "skillList": ["I'm an honest, highly disciplined person and friendly", "Hardworking, willing to learn and work with new things"]}
+]
