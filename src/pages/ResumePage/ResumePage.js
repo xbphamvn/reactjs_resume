@@ -60,7 +60,7 @@ export default function ResumePage(props) {
         <section className="mainShow__content">
             <div className="mainShow__content--title">
                 <h2>Resume</h2>
-                <span>Lorem ipsum dolor sit.</span>
+                <span>Over 30 frontend projects</span>
             </div>
             <div className="row container-fluid mx-auto">
                 <div className="col-sm-12 col-xl-4">

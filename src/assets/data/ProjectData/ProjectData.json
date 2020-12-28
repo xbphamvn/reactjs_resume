@@ -1,56 +1,697 @@
 [
-    { "id": 1, "category": "projReactJs", "imgSrc": "./img/projects/project_1.jpg", "name": "Resume Project", "shortDesc": "A Resume/CV online!","type": "react js", "classIcon": "fad fa-photo-video", "detail": {
-        "linkDemo": "xbphamvn.epizy.com/",
-        "linkGithub": "github.com",
-        "date": "25 Dec 2020",
-        "desc": ["A resume page!", "A resume page!", "A resume page!"],
-        "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+    
+    
+    
+    {
+        "id": 1,
+        "category": "projHtmlCss",
+        "name": "Fiverr Clone",
+        "shortDesc": "Clone home page of fiverr.com",
+        "type": "html/sass",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://fiverrcloneproject.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/html_fiverr.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/html/fiverr/fiverr_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/html/fiverr/fiverr_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/fiverr/fiverr_03.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/fiverr/fiverr_04.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/fiverr/fiverr_05.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/fiverr/fiverr_06.png",
+                "status": ""
+            }
+        ]
     },
-    "gallery": [{"imgSrc": "./img/projects/project_1.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_1.jpg", "status": ""}, {"imgSrc": "./img/projects/project_1.jpg", "status": ""} ]
-},
-    { "id": 2, "category": "projReactJs", "imgSrc": "./img/projects/project_2.jpg", "name": "Project2", "shortDesc": "Lorem ipsum dolor sit!","type": "html/css", "classIcon": "fad fa-photo-video", "detail": {
-        "linkDemo": "abcde.com",
-        "linkGithub": "github.com",
-        "date": "25 Dec 2020",
-        "desc": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"],
-        "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+    {
+        "id": 2,
+        "category": "projHtmlCss",
+        "name": "Udemy Clone",
+        "shortDesc": "Clone home page of udemy.com",
+        "type": "html/sass",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://udemycloneproject.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/html_udemy.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/html/udemy/udemy_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/html/udemy/udemy_01_dark.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/udemy/udemy_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/udemy/udemy_02_dark.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/udemy/udemy_03.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/udemy/udemy_03_dark.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/udemy/udemy_04.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/udemy/udemy_04_dark.png",
+                "status": ""
+            }
+        ]
     },
-    "gallery": [{"imgSrc": "./img/projects/project_2.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_2.jpg", "status": ""}, {"imgSrc": "./img/projects/project_2.jpg", "status": ""} ]
-},
-    { "id": 3, "category": "projReactJs", "imgSrc": "./img/projects/project_3.jpg", "name": "Project3", "shortDesc": "Lorem ipsum dolor sit!","type": "html/css/js", "classIcon": "fad fa-photo-video", "detail": {
-        "linkDemo": "abcdef.com",
-        "linkGithub": "github.com",
-        "date": "25 Nov 2020",
-        "desc": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"],
-        "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+    {
+        "id": 2,
+        "category": "projHtmlCss",
+        "name": "Movie Star Clone",
+        "shortDesc": "Clone home page of Movie Star theme",
+        "type": "html/css",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://moviestarclone.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/html_moviestar.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/html/moviestar/moviestar_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/html/moviestar/moviestar_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/moviestar/moviestar_03.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/moviestar/moviestar_04.png",
+                "status": ""
+            }
+        ]
     },
-    "gallery": [{"imgSrc": "./img/projects/project_3.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_3.jpg", "status": ""}, {"imgSrc": "./img/projects/project_3.jpg", "status": ""} ]
-},
-    { "id": 4, "category": "projReactJs", "imgSrc": "./img/projects/project_4.jpg", "name": "Project4", "shortDesc": "Lorem ipsum dolor sit!","type": "html", "classIcon": "fad fa-photo-video", "detail": {
-        "linkDemo": "abcdef.com",
-        "linkGithub": "github.com",
-        "date": "25 Nov 2020",
-        "desc": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"],
-        "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+    {
+        "id": 2,
+        "category": "projHtmlCss",
+        "name": "Merged Clone",
+        "shortDesc": "Clone home page of Merged w3layout theme",
+        "type": "html/css",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://mergedclone.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/html_merged.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/html/merged/merged_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/html/merged/merged_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/merged/merged_03.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/merged/merged_04.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/merged/merged_05.png",
+                "status": ""
+            }
+        ]
     },
-    "gallery": [{"imgSrc": "./img/projects/project_4.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_4.jpg", "status": ""}, {"imgSrc": "./img/projects/project_4.jpg", "status": ""} ]
-},
-    { "id": 5, "category": "projHtmlJs", "imgSrc": "./img/projects/project_5.jpg", "name": "Project5", "shortDesc": "Lorem ipsum dolor sit!","type": "html", "classIcon": "fad fa-photo-video", "detail": {
-        "linkDemo": "abc.com",
-        "linkGithub": "github.com",
-        "date": "25 Oct 2020",
-        "desc": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"],
-        "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
+    {
+        "id": 2,
+        "category": "projHtmlCss",
+        "name": "Instruction Education Clone",
+        "shortDesc": "Clone home page of Instruction Education w3layout",
+        "type": "html/css",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://instructionclone.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/html_instruction.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/html/instruction/instruction_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/html/instruction/instruction_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/instruction/instruction_03.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/instruction/instruction_04.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/instruction/instruction_05.png",
+                "status": ""
+            }
+        ]
     },
-    "gallery": [{"imgSrc": "./img/projects/project_5.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_5.jpg", "status": ""}, {"imgSrc": "./img/projects/project_5.jpg", "status": ""} ]
-},
-{ "id": 6, "category": "projHtmlCss", "imgSrc": "./img/projects/project_6.jpg", "name": "Project6", "shortDesc": "Lorem ipsum dolor sit!","type": "html", "classIcon": "fad fa-photo-video", "detail": {
-    "linkDemo": "abc.com",
-    "linkGithub": "github.com",
-    "date": "25 Oct 2020",
-    "desc": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"],
-    "technology": [{"icon": "fab fa-html5", "desc":"HTML", "class": "overlayDetail__html"}, {"icon": "fab fa-css3", "desc":"CSS", "class": "overlayDetail__css"}, {"icon": "fab fa-js", "desc":"Javascript", "class": "overlayDetail__js"}, {"icon": "", "desc":"JQuery", "class": "overlayDetail__jquery"}, {"icon": "fab fa-react", "desc":"React JS", "class": "overlayDetail__reactjs"}, {"icon": "fab fa-bootstrap", "desc":"Bootstrap", "class": "overlayDetail__bootstrap"}, {"icon": "fad fa-palette", "desc":"Ant Design", "class": "overlayDetail__antd"}, {"icon": "fal fa-database", "desc":"Ajax (RESTful API)", "class": "overlayDetail__restapi"}, {"icon": "fab fa-sass", "desc":"SASS", "class": "overlayDetail__sass"}]
-},
-"gallery": [{"imgSrc": "./img/projects/project_6.jpg", "status": "active"}, {"imgSrc": "./img/projects/project_5.jpg", "status": ""}, {"imgSrc": "./img/projects/project_4.jpg", "status": ""} ]
-}
+    {
+        "id": 2,
+        "category": "projHtmlCss",
+        "name": "Bake Clone",
+        "shortDesc": "Clone home page of Bake w3layout theme",
+        "type": "html/css",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://bakeclone.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/html_bake.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/html/bake/bake_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/html/bake/bake_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/bake/bake_03.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/bake/bake_04.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/bake/bake_05.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/bake/bake_06.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/bake/bake_07.png",
+                "status": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "projHtmlCss",
+        "name": "Housing Clone",
+        "shortDesc": "Clone home page of Housing w3layout theme",
+        "type": "html/css",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://housingclone.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/html_housing.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/html/housing/housing_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/html/housing/housing_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/housing/housing_03.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/housing/housing_04.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/housing/housing_05.png",
+                "status": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "projHtmlCss",
+        "name": "KFC Vietnam Clone",
+        "shortDesc": "Clone home page of KFC Vietnam theme",
+        "type": "html/css",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://kfcvnclone.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/html_kfcvietnam.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/html/kfcvietnam/kfcvn_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/html/kfcvietnam/kfcvn_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/html/kfcvietnam/kfcvn_03.png",
+                "status": ""
+            }
+        ]
+    }
 ]

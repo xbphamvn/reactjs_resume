@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import projData from '../../assets/data/ProjectData/ProjectData.json';
 import { sgaDisplayProjDetail } from '../../redux/actions/ResumeActions';
-import { ACTIVE_STATUS, ATTRIBUTE_NAME, PROJECT_ALL_BTN } from '../../utils/constants';
+import { ACTIVE_STATUS, ATTRIBUTE_NAME, PROJECT_ALL_BTN } from '../../utils/constants/constants';
+import { PORTFOLIO_PATH } from '../../utils/global/sysConfig';
 import ProjectsOverlay from '../ProjectsOverlay/ProjectsOverlay';
 
 export default function ProjectsPage(props) {
@@ -15,7 +16,8 @@ export default function ProjectsPage(props) {
         projStatus: {
             projAll: ACTIVE_STATUS,
             projReactJs: '',
-            projHtmlJs: '',
+            projJavascript: '',
+            projJquery: '',
             projHtmlCss: ''
         },
     });
@@ -41,7 +43,7 @@ export default function ProjectsPage(props) {
                 projData.map((item, index) => ((
                     <div className="col-sm-6 col-md-4 p-2" key={index} onClick={() => {dispatch(sgaDisplayProjDetail(item))}}>
                         <div className="projectItem">
-                            <img className="img-fluid" src={item.imgSrc} alt={item.id} />
+                            <img className="img-fluid" src={`${PORTFOLIO_PATH}${item.gallery[0].imgSrc}`} alt={item.id} />
                             <div className="projectItem__overlay">
                                 <div className="projectItem__content">
                                     <h5 className="mb-0">{item.name}</h5>
@@ -61,11 +63,9 @@ export default function ProjectsPage(props) {
         } else {
             return (
                 projData.filter(item => item.category === activeBtn).map((item, index) => ((
-                    <div className="col-sm-6 col-md-4 p-2" key={index} onClick={() => {
-                        dispatch(sgaDisplayProjDetail(item));
-                    }}>
+                    <div className="col-sm-6 col-md-4 p-2" key={index} onClick={() => {dispatch(sgaDisplayProjDetail(item))}}>
                         <div className="projectItem">
-                            <img className="img-fluid" src={item.imgSrc} alt={item.id} />
+                            <img className="img-fluid" src={`${PORTFOLIO_PATH}${item.gallery[0].imgSrc}`} alt={item.id} />
                             <div className="projectItem__overlay">
                                 <div className="projectItem__content">
                                     <h5 className="mb-0">{item.name}</h5>
@@ -96,15 +96,16 @@ export default function ProjectsPage(props) {
     return (
         <section className="mainShow__content">
             <div className="mainShow__content--title">
-                <h2>Projects</h2>
-                <span>Lorem ipsum dolor sit.</span>
+                <h2>Portfolio</h2>
+                <span>Representative projects</span>
             </div>
             <div className="text-center">
                 <div className="d-inline-block">
                     <div className="projectsBtn">
                         <button className={`projectsBtn__item ${state.projStatus.projAll}`} name="projAll" onClick={handleClick}>All</button>
                         <button className={`projectsBtn__item ${state.projStatus.projReactJs}`} name="projReactJs" onClick={handleClick}>ReactJS</button>
-                        <button className={`projectsBtn__item ${state.projStatus.projHtmlJs}`} name="projHtmlJs" onClick={handleClick}>HTML/CSS/JS</button>
+                        <button className={`projectsBtn__item ${state.projStatus.projJavascript}`} name="projJavascript" onClick={handleClick}>Javascript</button>
+                        <button className={`projectsBtn__item ${state.projStatus.projJquery}`} name="projJquery" onClick={handleClick}>Jquery</button>
                         <button className={`projectsBtn__item ${state.projStatus.projHtmlCss}`} name="projHtmlCss" onClick={handleClick}>HTML/CSS</button>
                     </div>
                 </div>

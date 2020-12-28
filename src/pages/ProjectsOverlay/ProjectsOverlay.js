@@ -3,7 +3,8 @@ import { useDispatch } from 'react-redux';
 import SocialIcon from '../../components/SocialIcon/SocialIcon';
 import { sgaDisplayProjDetail, sgaHideProjDetail } from '../../redux/actions/ResumeActions';
 import projData from '../../assets/data/ProjectData/ProjectData.json';
-import { OVERLAY_MILESTONE_ONE, OVERLAY_MILESTONE_ZERO, OVERLAY_STEPBACK_TWO } from '../../utils/constants';
+import { OVERLAY_MILESTONE_ONE, OVERLAY_MILESTONE_ZERO, OVERLAY_STEPBACK_TWO } from '../../utils/constants/constants';
+import { PORTFOLIO_PATH } from '../../utils/global/sysConfig';
 
 export default function ProjectsOverlay(props) {
 
@@ -41,18 +42,18 @@ export default function ProjectsOverlay(props) {
                     <h3>{projItem.name}</h3>
                 </div>
                 {/* Project detail */}
-                <div className="row container-fluid mt-4 mx-auto">
-                    <div className="col-sm-12 col-lg-7 px-sm-0 px-md-4">
+                <div className="row px-3 mt-4 mx-auto">
+                    <div className="col-sm-12 col-lg-7 px-0 px-lg-1">
                         <div id="overlaySlide" className="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
                             <ol className="carousel-indicators overlaySlide__indicators">
                                 {projItem.gallery.map((item, index) => ((
                                     <li data-bs-target="#overlaySlide" data-bs-slide-to={index} className={item.status} key={index} />
                                 )))}
                             </ol>
-                            <div className="carousel-inner">
+                            <div className="carousel-inner overlaySlide__inner">
                                 {projItem.gallery.map((item, index) => ((
                                     <div className={`carousel-item ${item.status}`} key={index}>
-                                        <img src={item.imgSrc} className="d-block w-100" alt="..." />
+                                        <img src={`${PORTFOLIO_PATH}${item.imgSrc}`} className="d-block w-100" alt="..." />
                                     </div>
                                 )))}
                             </div>
@@ -68,17 +69,17 @@ export default function ProjectsOverlay(props) {
                         </div>
                     </div>
                     {/* Projects detail */}
-                    <div className="col-sm-12 col-lg-5 mt-4 mt-md-0">
+                    <div className="col-sm-12 col-lg-5 ps-lg-4 pe-md-0 mt-4 mt-md-0">
                         <div className="row container-md-fluid">
                             <h5 className="mainShow__content--h5 mt-0 mb-3">Live Demo - Detail</h5>
                             <p className="mb-2">
-                                <a href="#linkproject" className="text-decoration-none text-primary">
-                                    <i className="fal fa-globe" /> {`www.${projItem.detail.linkDemo}`}
+                                <a href={projItem.detail.linkDemo} className="text-decoration-none text-primary">
+                                    <i className="fal fa-globe" /> {projItem.detail.linkDemo}
                                 </a>
                             </p>
                             <p className="mb-2">
-                                <a href="#linkproject" className="text-decoration-none text-danger">
-                                    <i className="fab fa-github" /> {`www.${projItem.detail.linkGithub}`}
+                                <a href={projItem.detail.linkGithub} className="text-decoration-none text-danger">
+                                    <i className="fab fa-github" /> {projItem.detail.linkGithub}
                                 </a>
                             </p>
                             <p className="mb-2"><i className="fal fa-calendar-alt" /> {projItem.detail.date}</p>
