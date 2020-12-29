@@ -6,6 +6,167 @@
 
 
 
+    {
+        "id": 1,
+        "category": "projJavascript",
+        "name": "Calculate Uber Fee",
+        "shortDesc": "Javascript Foundation Project!",
+        "type": "javascript",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://uberfee.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/js_uberFee.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/js/uber_fee/uber_fee_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/js/uber_fee/uber_fee_02.png",
+                "status": ""
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "category": "projJavascript",
+        "name": "Calculate Tip Money",
+        "shortDesc": "Javascript Foundation Project!",
+        "type": "javascript",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://tipmoney.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/js_tipMoney.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/js/tip_money/tip_money_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/js/tip_money/tip_money_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/js/tip_money/tip_money_03.png",
+                "status": ""
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
 
 
 
