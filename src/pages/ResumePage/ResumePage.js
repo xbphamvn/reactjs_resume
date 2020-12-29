@@ -69,7 +69,7 @@ export default function ResumePage(props) {
                 </div>
                 {renderTimelines()}
                 <div className="mb-2 mt-5">
-                    <a href="#cvdownload">
+                    <a href="./resume/Resume_PhamVanBach.pdf">
                         <button className="resume__btn">
                             <i className="fas fa-download" /> My CV
                         </button>
