@@ -40,7 +40,7 @@ export default function AboutPage(props) {
                                 Because I felt unsuitable for the current industry. So, I decided to look for opportunities in many other professions. And I found a passion in web programming.
                             </p>
                             <p>
-                                My goal is to become a senior full stack developer. So, I will try best myselft to imporove skills everyday. I hope that I will have chance to join your team to help me reach my goal!
+                            My goal is to become a senior full stack developer. So, I will try best myself to improve skills everyday. I hope that I will have a chance to join your team to help me reach my goal!
                             </p>
                         </div>
                         <div className="col-md-12 col-xl-6">
