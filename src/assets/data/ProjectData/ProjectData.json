@@ -6,13 +6,175 @@
     {
         "id": 1,
         "category": "projReactJs",
+        "name": "Resume Online",
+        "shortDesc": "React JS Project",
+        "type": "reactjs",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://xbphamvn.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/reactjs_resume.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/reactjs/resume/resume_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/reactjs/resume/resume_02.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/reactjs/resume/resume_03.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/reactjs/resume/resume_04.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/reactjs/resume/resume_05.png",
+                "status": ""
+            },
+            {
+                "imgSrc": "/reactjs/resume/resume_06.png",
+                "status": ""
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "category": "projReactJs",
+        "name": "Dressing Room React Version",
+        "shortDesc": "React JS Foundation Project",
+        "type": "reactjs",
+        "classIcon": "fad fa-photo-video",
+        "detail": {
+            "linkDemo": "https://dressingroomreactjs.netlify.app",
+            "linkGithub": "https://github.com/xbphamvn/reactjs_dressingRoom.git",
+            "date": "25 Oct, 2020",
+            "desc": [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+            ],
+            "technology": [
+                {
+                    "icon": "fab fa-html5",
+                    "desc": "HTML",
+                    "class": "overlayDetail__html"
+                },
+                {
+                    "icon": "fab fa-css3",
+                    "desc": "CSS",
+                    "class": "overlayDetail__css"
+                },
+                {
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
+                },
+                {
+                    "icon": "",
+                    "desc": "JQuery",
+                    "class": "overlayDetail__jquery"
+                },
+                {
+                    "icon": "fab fa-react",
+                    "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
+                {
+                    "icon": "fad fa-palette",
+                    "desc": "Ant Design",
+                    "class": "overlayDetail__antd"
+                },
+                {
+                    "icon": "fal fa-database",
+                    "desc": "Ajax (RESTful API)",
+                    "class": "overlayDetail__restapi"
+                },
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                }
+            ]
+        },
+        "gallery": [
+            {
+                "imgSrc": "/reactjs/dressing_room/dressing_room_01.png",
+                "status": "active"
+            },
+            {
+                "imgSrc": "/reactjs/dressing_room/dressing_room_02.png",
+                "status": ""
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "category": "projReactJs",
         "name": "Game Bầu Cua",
         "shortDesc": "React JS Foundation Project",
         "type": "reactjs",
         "classIcon": "fad fa-photo-video",
         "detail": {
             "linkDemo": "https://reactjsbaucua.netlify.app",
-            "linkGithub": "https://github.com/xbphamvn/reactjs_gameBauCua.git",
+            "linkGithub": "https://github.com/xbphamvn/reactjs_gameOTT.git",
             "date": "25 Oct, 2020",
             "desc": [
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
@@ -157,79 +319,6 @@
             },
             {
                 "imgSrc": "/reactjs/game_ott/game_ott_04.png",
-                "status": ""
-            }
-        ]
-    },
-    {
-        "id": 1,
-        "category": "projReactJs",
-        "name": "Dressing Room React Version",
-        "shortDesc": "React JS Foundation Project",
-        "type": "reactjs",
-        "classIcon": "fad fa-photo-video",
-        "detail": {
-            "linkDemo": "https://dressingroomreactjs.netlify.app",
-            "linkGithub": "https://github.com/xbphamvn/reactjs_dressingRoom.git",
-            "date": "25 Oct, 2020",
-            "desc": [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
-            ],
-            "technology": [
-                {
-                    "icon": "fab fa-html5",
-                    "desc": "HTML",
-                    "class": "overlayDetail__html"
-                },
-                {
-                    "icon": "fab fa-css3",
-                    "desc": "CSS",
-                    "class": "overlayDetail__css"
-                },
-                {
-                    "icon": "fab fa-js",
-                    "desc": "Javascript",
-                    "class": "overlayDetail__js"
-                },
-                {
-                    "icon": "",
-                    "desc": "JQuery",
-                    "class": "overlayDetail__jquery"
-                },
-                {
-                    "icon": "fab fa-react",
-                    "desc": "React JS",
-                    "class": "overlayDetail__reactjs"
-                },
-                {
-                    "icon": "fab fa-bootstrap",
-                    "desc": "Bootstrap",
-                    "class": "overlayDetail__bootstrap"
-                },
-                {
-                    "icon": "fad fa-palette",
-                    "desc": "Ant Design",
-                    "class": "overlayDetail__antd"
-                },
-                {
-                    "icon": "fal fa-database",
-                    "desc": "Ajax (RESTful API)",
-                    "class": "overlayDetail__restapi"
-                },
-                {
-                    "icon": "fab fa-sass",
-                    "desc": "SASS",
-                    "class": "overlayDetail__sass"
-                }
-            ]
-        },
-        "gallery": [
-            {
-                "imgSrc": "/reactjs/dressing_room/dressing_room_01.png",
-                "status": "active"
-            },
-            {
-                "imgSrc": "/reactjs/dressing_room/dressing_room_02.png",
                 "status": ""
             }
         ]
@@ -465,95 +554,6 @@
             },
             {
                 "imgSrc": "/reactjs/calculator/calculator_03.png",
-                "status": ""
-            }
-        ]
-    },
-    {
-        "id": 1,
-        "category": "projReactJs",
-        "name": "Resume Online",
-        "shortDesc": "React JS Project",
-        "type": "reactjs",
-        "classIcon": "fad fa-photo-video",
-        "detail": {
-            "linkDemo": "https://xbphamvn.netlify.app",
-            "linkGithub": "https://github.com/xbphamvn/reactjs_resume.git",
-            "date": "25 Oct, 2020",
-            "desc": [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
-            ],
-            "technology": [
-                {
-                    "icon": "fab fa-html5",
-                    "desc": "HTML",
-                    "class": "overlayDetail__html"
-                },
-                {
-                    "icon": "fab fa-css3",
-                    "desc": "CSS",
-                    "class": "overlayDetail__css"
-                },
-                {
-                    "icon": "fab fa-js",
-                    "desc": "Javascript",
-                    "class": "overlayDetail__js"
-                },
-                {
-                    "icon": "",
-                    "desc": "JQuery",
-                    "class": "overlayDetail__jquery"
-                },
-                {
-                    "icon": "fab fa-react",
-                    "desc": "React JS",
-                    "class": "overlayDetail__reactjs"
-                },
-                {
-                    "icon": "fab fa-bootstrap",
-                    "desc": "Bootstrap",
-                    "class": "overlayDetail__bootstrap"
-                },
-                {
-                    "icon": "fad fa-palette",
-                    "desc": "Ant Design",
-                    "class": "overlayDetail__antd"
-                },
-                {
-                    "icon": "fal fa-database",
-                    "desc": "Ajax (RESTful API)",
-                    "class": "overlayDetail__restapi"
-                },
-                {
-                    "icon": "fab fa-sass",
-                    "desc": "SASS",
-                    "class": "overlayDetail__sass"
-                }
-            ]
-        },
-        "gallery": [
-            {
-                "imgSrc": "/reactjs/resume/resume_01.png",
-                "status": "active"
-            },
-            {
-                "imgSrc": "/reactjs/resume/resume_02.png",
-                "status": ""
-            },
-            {
-                "imgSrc": "/reactjs/resume/resume_03.png",
-                "status": ""
-            },
-            {
-                "imgSrc": "/reactjs/resume/resume_04.png",
-                "status": ""
-            },
-            {
-                "imgSrc": "/reactjs/resume/resume_05.png",
-                "status": ""
-            },
-            {
-                "imgSrc": "/reactjs/resume/resume_06.png",
                 "status": ""
             }
         ]
