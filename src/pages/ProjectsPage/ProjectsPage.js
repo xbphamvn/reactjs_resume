@@ -104,9 +104,9 @@ export default function ProjectsPage(props) {
                     <div className="projectsBtn">
                         <button className={`projectsBtn__item ${state.projStatus.projAll}`} name="projAll" onClick={handleClick}>All</button>
                         <button className={`projectsBtn__item ${state.projStatus.projReactJs}`} name="projReactJs" onClick={handleClick}>ReactJS</button>
+                        <button className={`projectsBtn__item ${state.projStatus.projHtmlCss}`} name="projHtmlCss" onClick={handleClick}>HTML/CSS</button>
                         <button className={`projectsBtn__item ${state.projStatus.projJavascript}`} name="projJavascript" onClick={handleClick}>ES5/ES6</button>
                         <button className={`projectsBtn__item ${state.projStatus.projJquery}`} name="projJquery" onClick={handleClick}>Jquery</button>
-                        <button className={`projectsBtn__item ${state.projStatus.projHtmlCss}`} name="projHtmlCss" onClick={handleClick}>HTML/CSS</button>
                     </div>
                 </div>
             </div>
