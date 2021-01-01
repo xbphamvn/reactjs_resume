@@ -982,7 +982,7 @@
     
     
     {
-        "id": 2,
+        "id": 17,
         "category": "projHtmlCss",
         "name": "Movie Star Clone",
         "shortDesc": "Clone home page of Movie Star theme",
@@ -1041,7 +1041,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 18,
         "category": "projHtmlCss",
         "name": "Merged Clone",
         "shortDesc": "Clone home page of Merged w3layout theme",
@@ -1104,7 +1104,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 19,
         "category": "projHtmlCss",
         "name": "Instruction Education Clone",
         "shortDesc": "Clone home page of Instruction Education w3layout",
@@ -1259,7 +1259,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 20,
         "category": "projHtmlCss",
         "name": "Housing Clone",
         "shortDesc": "Clone home page of Housing w3layout theme",
@@ -1344,7 +1344,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 21,
         "category": "projHtmlCss",
         "name": "KFC Vietnam Clone",
         "shortDesc": "Clone home page of KFC Vietnam theme",
@@ -1425,7 +1425,7 @@
 
 
     {
-        "id": 1,
+        "id": 22,
         "category": "projReactJs",
         "name": "Booking Ticket Online",
         "shortDesc": "React JS Project",
@@ -1498,7 +1498,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 23,
         "category": "projReactJs",
         "name": "Jira Clone",
         "shortDesc": "React JS Project",
