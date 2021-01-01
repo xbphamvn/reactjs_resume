@@ -15,7 +15,7 @@
             "desc": [
                 "CSS pre-processing platform: SASS",
                 "Use Bootstrap 4 to support building the layout!",
-                "HTML5/CSS, BEM to name the classes",
+                "HTML5/CSS, CSS classes name according to BEM rules",
                 "Multi responsive for desktop, tablet, mobile",
                 "Libraries: Owl Crousel, Font Awesome, Back to Top, Jquery 3.5.1"
             ],
@@ -94,11 +94,21 @@
                 "CSS pre-processing platform: SASS",
                 "Use javascript to truncate the title and toggle the dark mode option button!",
                 "Use Bootstrap 4 to support building the layout!",
-                "HTML5/CSS, BEM to name the classes",
+                "HTML5/CSS, CSS classes name according to BEM rules",
                 "Multi responsive for desktop, tablet, mobile",
                 "Libraries: Owl Crousel, Font Awesome, Jquery 3.5.1"
             ],
             "technology": [
+                {
+                    "icon": "fab fa-sass",
+                    "desc": "SASS",
+                    "class": "overlayDetail__sass"
+                },
+                {
+                    "icon": "fab fa-bootstrap",
+                    "desc": "Bootstrap",
+                    "class": "overlayDetail__bootstrap"
+                },
                 {
                     "icon": "fab fa-html5",
                     "desc": "HTML",
@@ -110,39 +120,14 @@
                     "class": "overlayDetail__css"
                 },
                 {
-                    "icon": "fab fa-js",
-                    "desc": "Javascript",
-                    "class": "overlayDetail__js"
-                },
-                {
                     "icon": "",
                     "desc": "JQuery",
                     "class": "overlayDetail__jquery"
                 },
                 {
-                    "icon": "fab fa-react",
-                    "desc": "React JS",
-                    "class": "overlayDetail__reactjs"
-                },
-                {
-                    "icon": "fab fa-bootstrap",
-                    "desc": "Bootstrap",
-                    "class": "overlayDetail__bootstrap"
-                },
-                {
-                    "icon": "fad fa-palette",
-                    "desc": "Ant Design",
-                    "class": "overlayDetail__antd"
-                },
-                {
-                    "icon": "fal fa-database",
-                    "desc": "Ajax (RESTful API)",
-                    "class": "overlayDetail__restapi"
-                },
-                {
-                    "icon": "fab fa-sass",
-                    "desc": "SASS",
-                    "class": "overlayDetail__sass"
+                    "icon": "fab fa-js",
+                    "desc": "Javascript",
+                    "class": "overlayDetail__js"
                 }
             ]
         },
@@ -994,7 +979,7 @@
             "date": "25 July, 2020",
             "desc": [
                 "Use Bootstrap 4 to support building the layout!",
-                "HTML5/CSS, BEM to name the classes",
+                "HTML5/CSS, CSS classes name according to BEM rules",
                 "Multi responsive for desktop, tablet, mobile",
                 "Libraries: Google Fonts, Jquery 3.5.1"
             ],
@@ -1053,7 +1038,7 @@
             "date": "25 Oct, 2020",
             "desc": [
                 "Use Bootstrap 4 to support building the layout!",
-                "HTML5/CSS, BEM to name the classes",
+                "HTML5/CSS, CSS classes name according to BEM rules",
                 "Multi responsive for desktop, tablet, mobile",
                 "Libraries: Fonts Awesome, Owl Carousel, Countup, Jquery 4.5.0"
             ],
@@ -1116,7 +1101,7 @@
             "date": "25 Oct, 2020",
             "desc": [
                 "Use Bootstrap 4 to support building the layout!",
-                "HTML5/CSS, BEM to name the classes",
+                "HTML5/CSS, CSS classes name according to BEM rules",
                 "Multi responsive for desktop, tablet, mobile",
                 "Libraries: Fonts Awesome, Owl Carousel, Jquery 4.5.0"
             ],
@@ -1167,7 +1152,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 20,
         "category": "projHtmlCss",
         "name": "Bake Clone",
         "shortDesc": "Clone home page of Bake w3layout theme",
@@ -1179,7 +1164,7 @@
             "date": "25 Oct, 2020",
             "desc": [
                 "Desktop version only!",
-                "HTML5/CSS, BEM to name the classes",
+                "HTML5/CSS, CSS classes name according to BEM rules",
                 "Learn the way to use grid in CSS",
                 "Practice to use keyframe/animation",
                 "Libraries: Fonts Awesome, Owl Carousel, Countup, Back to Top, Jquery 4.5.0"
@@ -1199,31 +1184,6 @@
                     "icon": "",
                     "desc": "JQuery",
                     "class": "overlayDetail__jquery"
-                },
-                {
-                    "icon": "fab fa-react",
-                    "desc": "React JS",
-                    "class": "overlayDetail__reactjs"
-                },
-                {
-                    "icon": "fab fa-bootstrap",
-                    "desc": "Bootstrap",
-                    "class": "overlayDetail__bootstrap"
-                },
-                {
-                    "icon": "fad fa-palette",
-                    "desc": "Ant Design",
-                    "class": "overlayDetail__antd"
-                },
-                {
-                    "icon": "fal fa-database",
-                    "desc": "Ajax (RESTful API)",
-                    "class": "overlayDetail__restapi"
-                },
-                {
-                    "icon": "fab fa-sass",
-                    "desc": "SASS",
-                    "class": "overlayDetail__sass"
                 }
             ]
         },
@@ -1259,7 +1219,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 21,
         "category": "projHtmlCss",
         "name": "Housing Clone",
         "shortDesc": "Clone home page of Housing w3layout theme",
@@ -1270,7 +1230,8 @@
             "linkGithub": "https://github.com/xbphamvn/html_housing.git",
             "date": "25 Oct, 2020",
             "desc": [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+                "HTML5/CSS3 - Desktop version only",
+                "Libraries: Responsive Slide, Back to Top, Magnific Popup CSS, Countup"
             ],
             "technology": [
                 {
@@ -1284,39 +1245,9 @@
                     "class": "overlayDetail__css"
                 },
                 {
-                    "icon": "fab fa-js",
-                    "desc": "Javascript",
-                    "class": "overlayDetail__js"
-                },
-                {
                     "icon": "",
                     "desc": "JQuery",
                     "class": "overlayDetail__jquery"
-                },
-                {
-                    "icon": "fab fa-react",
-                    "desc": "React JS",
-                    "class": "overlayDetail__reactjs"
-                },
-                {
-                    "icon": "fab fa-bootstrap",
-                    "desc": "Bootstrap",
-                    "class": "overlayDetail__bootstrap"
-                },
-                {
-                    "icon": "fad fa-palette",
-                    "desc": "Ant Design",
-                    "class": "overlayDetail__antd"
-                },
-                {
-                    "icon": "fal fa-database",
-                    "desc": "Ajax (RESTful API)",
-                    "class": "overlayDetail__restapi"
-                },
-                {
-                    "icon": "fab fa-sass",
-                    "desc": "SASS",
-                    "class": "overlayDetail__sass"
                 }
             ]
         },
@@ -1344,7 +1275,7 @@
         ]
     },
     {
-        "id": 21,
+        "id": 22,
         "category": "projHtmlCss",
         "name": "KFC Vietnam Clone",
         "shortDesc": "Clone home page of KFC Vietnam theme",
@@ -1355,7 +1286,8 @@
             "linkGithub": "https://github.com/xbphamvn/html_kfcvietnam.git",
             "date": "25 Oct, 2020",
             "desc": [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed unde delectus rerum aut nulla? Est sed unde delectus rerum aut nulla?"
+                "HTML5/CSS3 only!",
+                "Practice to improve CSS skill!"
             ],
             "technology": [
                 {
@@ -1367,41 +1299,6 @@
                     "icon": "fab fa-css3",
                     "desc": "CSS",
                     "class": "overlayDetail__css"
-                },
-                {
-                    "icon": "fab fa-js",
-                    "desc": "Javascript",
-                    "class": "overlayDetail__js"
-                },
-                {
-                    "icon": "",
-                    "desc": "JQuery",
-                    "class": "overlayDetail__jquery"
-                },
-                {
-                    "icon": "fab fa-react",
-                    "desc": "React JS",
-                    "class": "overlayDetail__reactjs"
-                },
-                {
-                    "icon": "fab fa-bootstrap",
-                    "desc": "Bootstrap",
-                    "class": "overlayDetail__bootstrap"
-                },
-                {
-                    "icon": "fad fa-palette",
-                    "desc": "Ant Design",
-                    "class": "overlayDetail__antd"
-                },
-                {
-                    "icon": "fal fa-database",
-                    "desc": "Ajax (RESTful API)",
-                    "class": "overlayDetail__restapi"
-                },
-                {
-                    "icon": "fab fa-sass",
-                    "desc": "SASS",
-                    "class": "overlayDetail__sass"
                 }
             ]
         },
@@ -1425,7 +1322,7 @@
 
 
     {
-        "id": 22,
+        "id": 1,
         "category": "projReactJs",
         "name": "Booking Ticket Online",
         "shortDesc": "React JS Project",
@@ -1498,7 +1395,7 @@
         ]
     },
     {
-        "id": 23,
+        "id": 2,
         "category": "projReactJs",
         "name": "Jira Clone",
         "shortDesc": "React JS Project",

@@ -28,6 +28,7 @@ export default function ProjectsOverlay(props) {
                         </button>
                         <button className="overlayBtn" onClick={() => {
                             if (projItem.id < projData.length) {
+                                console.log(projData[projItem.id]);
                                 dispatch(sgaDisplayProjDetail(projData[projItem.id]))
                             } if (projItem.id === projData.length) {
                                 dispatch(sgaDisplayProjDetail(projData[OVERLAY_MILESTONE_ZERO]))
