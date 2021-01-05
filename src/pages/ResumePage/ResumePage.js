@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import skillData from '../../assets/data/ResumeData/SkillData.json';
 import timelineData from '../../assets/data/ResumeData/TimelineData.json';
+import { useSpring, animated as a } from 'react-spring';
 
 export default function ResumePage(props) {
 
@@ -56,8 +57,14 @@ export default function ResumePage(props) {
         )))
     );
 
+    const displayAnim = useSpring({
+        from: { transform: 'scale(0) rotate(90deg) translateX(-200%)', opacity: 0 },
+        to: { transform: 'scale(1) rotate(0deg) translateX(0)', opacity: 1 },
+        config: { duration: 1000 }
+    });
+
     return (
-        <section className="mainShow__content">
+        <a.section style={displayAnim} className="mainShow__content">
             <div className="mainShow__content--title">
                 <h2>Resume</h2>
                 <span>Over 30 frontend projects</span>
@@ -76,6 +83,6 @@ export default function ResumePage(props) {
                     </a>
                 </div>
             </div>
-        </section>
+        </a.section>
     )
 }

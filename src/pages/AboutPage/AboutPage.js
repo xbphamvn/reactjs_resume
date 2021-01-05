@@ -4,8 +4,15 @@ import personalData from '../../assets/data/AboutData/InfoData.json';
 import Knowledge from '../../components/Knowledge/Knowledge';
 import Clients from '../../components/Clients/Clients';
 import Numbers from '../../components/Numbers/Numbers';
+import { useSpring, animated as a } from 'react-spring';
 
 export default function AboutPage(props) {
+
+    const displayAnim = useSpring({
+        from: { transform: 'scale(0) translateX(100%)', opacity: 0 },
+        to: { transform: 'scale(1) translateX(0)', opacity: 1 },
+        config: { duration: 700 }
+    });
 
     const renderInfoData = () => (
         personalData.map((item, index) => ((
@@ -23,7 +30,7 @@ export default function AboutPage(props) {
     );
 
     return (
-        <section className="mainShow__content">
+        <a.section style={displayAnim} className="mainShow__content">
             <div className="mainShow__content--title">
                 <h2>About Me</h2>
                 <span>Frontend developer</span>
@@ -56,6 +63,6 @@ export default function AboutPage(props) {
             <Knowledge />
             <Clients />
             <Numbers />
-        </section>
+        </a.section>
     )
 }

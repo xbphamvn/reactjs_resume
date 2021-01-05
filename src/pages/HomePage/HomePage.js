@@ -1,9 +1,16 @@
 import React from 'react';
+import { useSpring, animated as a } from 'react-spring';
 
 export default function HomePage(props) {
 
+    const displayAnim = useSpring({
+        from: { transform: 'scale(0) translateX(-200%)', opacity: 0 },
+        to: { transform: 'scale(1) translateX(0)', opacity: 1 },
+        config: { duration: 700 }
+    });
+
     return (
-        <section className="showHomePage">
+        <a.section style={displayAnim} className="showHomePage">
             <div className="showHomePage__bg">
                 <video playsInline="playsinline" autoPlay="autoplay" loop="loop">
                     <source src="./img/homepage/background.mp4" type="video/mp4" />
@@ -22,6 +29,6 @@ export default function HomePage(props) {
                     </div>
                 </div>
             </div>
-        </section>
+        </a.section>
     )
 }

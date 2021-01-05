@@ -1,17 +1,22 @@
 import React from 'react';
 import SocialIcon from '../../components/SocialIcon/SocialIcon';
+import { useSpring, animated as a } from 'react-spring';
 
 export default function ContactPage(props) {
+
+    const displayAnim = useSpring({
+        from: { transform: 'scale(0) translateY(100%)', opacity: 0 },
+        to: { transform: 'scale(1) translateY(0)', opacity: 1 },
+        config: { duration: 700 }
+    });
+
     return (
-        <section className="mainShow__content">
-            {/* Header */}
+        <a.section style={displayAnim} className="mainShow__content">
             <div className="mainShow__content--title">
                 <h2>Contact</h2>
                 <span>Get in Touch</span>
             </div>
-            {/* Contact */}
             <div className="row container-fluid mx-auto">
-                {/* Get in Touch */}
                 <div className="col-12 col-md-6">
                     <h5 className="mainShow__content--h5">Get in Touch</h5>
                     <p>I look forward to hearing from you soon. Please feel free to contact me if you need any further information.</p>
@@ -23,7 +28,6 @@ export default function ContactPage(props) {
                         <SocialIcon />
                     </div>
                 </div>
-                {/* Contact Form */}
                 <div className="col-12 col-md-6">
                     <h5 className="mainShow__content--h5">Contact Form</h5>
                     <form className="contactForm ms-2">
@@ -49,7 +53,6 @@ export default function ContactPage(props) {
                     </form>
                 </div>
             </div>
-        </section>
-
+        </a.section>
     )
 }
