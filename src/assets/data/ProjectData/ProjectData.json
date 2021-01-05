@@ -176,12 +176,12 @@
         "type": "reactjs",
         "classIcon": "fad fa-photo-video",
         "detail": {
-            "linkDemo": "https://todolistapireactjs.netlify.app",
+            "linkDemo": "http://todolistapi.epizy.com",
             "linkGithub": "https://github.com/xbphamvn/reactjs_todoListAPI.git",
             "date": "25 Oct, 2020",
             "desc": [
                 "React function component",
-                "Use redux-saga, Axios to communicate with backend",
+                "Use redux-saga, Axios to communicate with backend to get task list, update task item's status",
                 "React Hooks: useState, useDispatch, useSelector",
                 "Libraries: Axios, react redux, Bootstrap"
             ],
