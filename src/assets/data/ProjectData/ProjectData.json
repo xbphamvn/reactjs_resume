@@ -230,6 +230,10 @@
             {
                 "imgSrc": "/reactjs/todo_list/todo_list_03.png",
                 "status": ""
+            },
+            {
+                "imgSrc": "/reactjs/todo_list/todo_list_04.png",
+                "status": ""
             }
         ]
     },
