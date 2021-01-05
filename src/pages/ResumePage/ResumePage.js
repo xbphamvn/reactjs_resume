@@ -64,7 +64,7 @@ export default function ResumePage(props) {
     });
 
     return (
-        <a.section style={displayAnim} className="mainShow__content">
+        <a.section style={displayAnim} className="mainShow__content" id="resume">
             <div className="mainShow__content--title">
                 <h2>Resume</h2>
                 <span>Over 30 frontend projects</span>

@@ -1,7 +1,7 @@
 [
-    { "name": "home", "path": "/home", "icon": "fal fa-home-lg", "desc": "Home"},
-    { "name": "about", "path": "about", "icon": "fal fa-user-circle", "desc": "About Me"},
-    { "name": "resume", "path": "resume", "icon": "fal fa-id-card", "desc": "Resume"},
-    { "name": "projects", "path": "projects", "icon": "fal fa-briefcase", "desc": "Projects"},
-    { "name": "contact", "path": "contact", "icon": "fal fa-envelope", "desc": "Contact"}
+    { "name": "home", "path": "/", "id": "#home", "icon": "fal fa-home-lg", "desc": "Home"},
+    { "name": "about", "path": "about", "id": "#about", "icon": "fal fa-user-circle", "desc": "About Me"},
+    { "name": "resume", "path": "resume", "id": "#resume", "icon": "fal fa-id-card", "desc": "Resume"},
+    { "name": "projects", "path": "projects", "id": "#projects", "icon": "fal fa-briefcase", "desc": "Projects"},
+    { "name": "contact", "path": "contact", "id": "#contact", "icon": "fal fa-envelope", "desc": "Contact"}
 ]

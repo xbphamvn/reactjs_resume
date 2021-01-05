@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
 import navData from '../../assets/data/MenuBarData.json';
 
 export default function NavBar(props) {
@@ -7,7 +6,7 @@ export default function NavBar(props) {
     const [status, setStatus] = useState({ status: '', icon: 'fal fa-list-ul' });
 
     return (
-        <section className="menuMobile d-lg-none">
+        <section className="menuMobile">
             <div className="headerMobile">
                 <p className="fs-5 mb-0">XB Pham</p>
             </div>
@@ -17,7 +16,7 @@ export default function NavBar(props) {
                 </div>
                 <div className="navMobile__items">
                     <ul>
-                        {navData.map((item, index) => <li key={index}><NavLink className="navMobile__item" activeClassName="text-white" to={item.path}><i className={`${item.icon} text-center`} /></NavLink></li>)}
+                        {navData.map((item, index) => <li key={index}><a href={item.id} className="navMobile__item"><i className={`${item.icon} text-center`} /></a></li>)}
                     </ul>
                 </div>
             </nav>

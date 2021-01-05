@@ -30,13 +30,13 @@ export default function AboutPage(props) {
     );
 
     return (
-        <a.section style={displayAnim} className="mainShow__content">
+        <a.section style={displayAnim} className="mainShow__content" id="about">
             <div className="mainShow__content--title">
                 <h2>About Me</h2>
                 <span>Frontend developer</span>
             </div>
             <div className="row container-fluid mx-auto">
-                <div className="col-sm-12 col-md-6 col-xl-4">
+                <div className="col-sm-12 col-md-6 col-xl-4 text-center">
                     <img className="img-fluid" src="./img/profile/avatar.png" alt="main avatar" />
                 </div>
                 <div className="col-sm-12 mt-4 mt-md-0 col-md-6 col-xl-8">

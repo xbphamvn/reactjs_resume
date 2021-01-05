@@ -1154,9 +1154,6 @@ textarea::-webkit-scrollbar {
 }
 
 @media (max-width: 991px) {
-  .menuBar {
-    display: none;
-  }
 
   .main {
     margin-left: 0;
@@ -1165,15 +1162,14 @@ textarea::-webkit-scrollbar {
   .mainShow {
     position: relative;
     padding: 36px 0 0;
+    height: auto;
   }
 
   .showHomePage {
     padding: 0;
-  }
-
-  .showHomePage__bg > video {
-    height: 100%;
-    width: auto;
+    min-height: 200px;
+    height: 60vh;
+    box-shadow: none;
   }
 
   .showHomePage__title {
@@ -1187,6 +1183,7 @@ textarea::-webkit-scrollbar {
 
   .mainShow__content {
     padding: 0 0 50px;
+    box-shadow: none;
   }
 
   .mainShow__content::before {

@@ -11,7 +11,7 @@ export default function ContactPage(props) {
     });
 
     return (
-        <a.section style={displayAnim} className="mainShow__content">
+        <a.section style={displayAnim} className="mainShow__content" id="contact">
             <div className="mainShow__content--title">
                 <h2>Contact</h2>
                 <span>Get in Touch</span>

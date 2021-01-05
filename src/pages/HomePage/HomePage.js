@@ -10,7 +10,7 @@ export default function HomePage(props) {
     });
 
     return (
-        <a.section style={displayAnim} className="showHomePage">
+        <a.section style={displayAnim} className="showHomePage" id="home">
             <div className="showHomePage__bg">
                 <video playsInline="playsinline" autoPlay="autoplay" loop="loop">
                     <source src="./img/homepage/background.mp4" type="video/mp4" />

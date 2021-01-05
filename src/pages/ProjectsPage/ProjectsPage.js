@@ -102,7 +102,7 @@ export default function ProjectsPage(props) {
 
     return (
         <>
-            <a.section style={displayAnim} className="mainShow__content">
+            <a.section style={displayAnim} className="mainShow__content" id="projects">
                 <div className="mainShow__content--title">
                     <h2>Portfolio</h2>
                     <span>Representative projects</span>
