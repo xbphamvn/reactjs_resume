@@ -5,6 +5,7 @@ import { sgaDisplayProjDetail, sgaHideProjDetail } from '../../redux/actions/Res
 import projData from '../../assets/data/ProjectData/ProjectData.json';
 import { OVERLAY_MILESTONE_ONE, OVERLAY_MILESTONE_ZERO, OVERLAY_STEPBACK_TWO } from '../../utils/constants/constants';
 import { PORTFOLIO_PATH } from '../../utils/global/sysConfig';
+import { useSpring, animated as a } from 'react-spring';
 
 export default function ProjectsOverlay(props) {
 
@@ -12,8 +13,14 @@ export default function ProjectsOverlay(props) {
 
     const dispatch = useDispatch();
 
+    const displayAnim = useSpring({
+        from: { transform: 'scale(0) translateX(-100%)', opacity: 0 },
+        to: { transform: 'scale(1) translateX(0)', opacity: 1 },
+        config: { duration: 500 }
+    });
+
     return (
-        <div className="overlayProj">
+        <a.div style={displayAnim} className="overlayProj">
             <div className="overlayContent">
                 <div className="text-center">
                     <div className="overlayContent__btn">
@@ -42,7 +49,6 @@ export default function ProjectsOverlay(props) {
                     </div>
                     <h3>{projItem.name}</h3>
                 </div>
-                {/* Project detail */}
                 <div className="row px-3 mt-4 mx-auto">
                     <div className="col-sm-12 col-lg-7 px-0 px-lg-1">
                         <div id="overlaySlide" className="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
@@ -69,7 +75,6 @@ export default function ProjectsOverlay(props) {
                             <iframe className="overlay__iframe" title={'Intro video'} width={'100%'} src="https://www.youtube.com/embed/F2bk_9T482g" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
                         </div>
                     </div>
-                    {/* Projects detail */}
                     <div className="col-sm-12 col-lg-5 ps-lg-4 pe-md-0 mt-4 mt-md-0">
                         <div className="row container-md-fluid">
                             <h5 className="mainShow__content--h5 mt-0 mb-3">Live Demo - Detail</h5>
@@ -104,6 +109,6 @@ export default function ProjectsOverlay(props) {
                     </div>
                 </div>
             </div>
-        </div>
+        </a.div>
     )
 }

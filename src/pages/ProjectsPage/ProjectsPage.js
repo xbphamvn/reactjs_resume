@@ -9,7 +9,7 @@ import { useSpring, animated as a } from 'react-spring';
 
 export default function ProjectsPage(props) {
 
-    const {projItem, displayProjDetail} = useSelector(state => state.ResumeReducer);
+    const { projItem, displayProjDetail } = useSelector(state => state.ResumeReducer);
 
     const dispatch = useDispatch();
 
@@ -42,7 +42,7 @@ export default function ProjectsPage(props) {
         if (activeBtn === PROJECT_ALL_BTN) {
             return (
                 projData.map((item, index) => ((
-                    <div className="col-sm-6 col-md-4 p-2" key={index} onClick={() => {dispatch(sgaDisplayProjDetail(item))}}>
+                    <div className="col-sm-6 col-md-4 p-2" key={index} onClick={() => { dispatch(sgaDisplayProjDetail(item)) }}>
                         <div className="projectItem">
                             <img className="img-fluid" src={`${PORTFOLIO_PATH}${item.gallery[0].imgSrc}`} alt={item.id} />
                             <div className="projectItem__overlay">
@@ -64,7 +64,7 @@ export default function ProjectsPage(props) {
         } else {
             return (
                 projData.filter(item => item.category === activeBtn).map((item, index) => ((
-                    <div className="col-sm-6 col-md-4 p-2" key={index} onClick={() => {dispatch(sgaDisplayProjDetail(item))}}>
+                    <div className="col-sm-6 col-md-4 p-2" key={index} onClick={() => { dispatch(sgaDisplayProjDetail(item)) }}>
                         <div className="projectItem">
                             <img className="img-fluid" src={`${PORTFOLIO_PATH}${item.gallery[0].imgSrc}`} alt={item.id} />
                             <div className="projectItem__overlay">
@@ -101,27 +101,29 @@ export default function ProjectsPage(props) {
     });
 
     return (
-        <a.section style={displayAnim} className="mainShow__content">
-            <div className="mainShow__content--title">
-                <h2>Portfolio</h2>
-                <span>Representative projects</span>
-            </div>
-            <div className="text-center">
-                <div className="d-inline-block">
-                    <div className="projectsBtn">
-                        <button className={`projectsBtn__item ${state.projStatus.projAll}`} name="projAll" onClick={handleClick}>All</button>
-                        <button className={`projectsBtn__item ${state.projStatus.projReactJs}`} name="projReactJs" onClick={handleClick}>ReactJS</button>
-                        <button className={`projectsBtn__item ${state.projStatus.projHtmlCss}`} name="projHtmlCss" onClick={handleClick}>HTML/CSS</button>
-                        <button className={`projectsBtn__item ${state.projStatus.projJavascript}`} name="projJavascript" onClick={handleClick}>ES5/ES6</button>
-                        <button className={`projectsBtn__item ${state.projStatus.projJquery}`} name="projJquery" onClick={handleClick}>Jquery</button>
+        <>
+            <a.section style={displayAnim} className="mainShow__content">
+                <div className="mainShow__content--title">
+                    <h2>Portfolio</h2>
+                    <span>Representative projects</span>
+                </div>
+                <div className="text-center">
+                    <div className="d-inline-block">
+                        <div className="projectsBtn">
+                            <button className={`projectsBtn__item ${state.projStatus.projAll}`} name="projAll" onClick={handleClick}>All</button>
+                            <button className={`projectsBtn__item ${state.projStatus.projReactJs}`} name="projReactJs" onClick={handleClick}>ReactJS</button>
+                            <button className={`projectsBtn__item ${state.projStatus.projHtmlCss}`} name="projHtmlCss" onClick={handleClick}>HTML/CSS</button>
+                            <button className={`projectsBtn__item ${state.projStatus.projJavascript}`} name="projJavascript" onClick={handleClick}>ES5/ES6</button>
+                            <button className={`projectsBtn__item ${state.projStatus.projJquery}`} name="projJquery" onClick={handleClick}>Jquery</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="row container-fluid mx-auto mt-4">
-                {renderProjectsAll()}
-            </div>
-            {renderProjectDetail()}
-        </a.section>
+                <div className="row container-fluid mx-auto mt-4">
+                    {renderProjectsAll()}
+                </div>
+            </a.section>
+            { renderProjectDetail()}
+        </>
 
     )
 }
