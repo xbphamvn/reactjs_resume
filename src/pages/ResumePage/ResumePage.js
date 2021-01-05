@@ -60,7 +60,7 @@ export default function ResumePage(props) {
     const displayAnim = useSpring({
         from: { transform: 'scale(0) rotate(90deg) translateX(-200%)', opacity: 0 },
         to: { transform: 'scale(1) rotate(0deg) translateX(0)', opacity: 1 },
-        config: { duration: 1000 }
+        config: { duration: 700 }
     });
 
     return (

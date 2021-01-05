@@ -16,7 +16,7 @@ export default function ProjectsOverlay(props) {
     const displayAnim = useSpring({
         from: { transform: 'scale(0) translateX(-100%)', opacity: 0 },
         to: { transform: 'scale(1) translateX(0)', opacity: 1 },
-        config: { duration: 500 }
+        config: { duration: 300 }
     });
 
     return (
