@@ -387,14 +387,20 @@
             "desc": [
                 "React function component, React Hooks",
                 "Use react higher-order components to optimize code",
+                "Animations by react-spring",
                 "Use JSON data to optimize code lines",
                 "Multi responsive for desktop, tablet, mobile",
-                "Libraries: react redux saga, react router DOM, Bootstrap 5.0"
+                "Libraries: react redux saga, react-spring, react router DOM, Bootstrap 5.0"
             ],
             "technology": [
                 {
                     "icon": "fab fa-react",
                     "desc": "React JS",
+                    "class": "overlayDetail__reactjs"
+                },
+                {
+                    "icon": "",
+                    "desc": "react-spring",
                     "class": "overlayDetail__reactjs"
                 },
                 {

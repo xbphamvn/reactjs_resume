@@ -7,7 +7,7 @@ export default function ContactPage(props) {
     const displayAnim = useSpring({
         from: { transform: 'scale(0) translateY(100%)', opacity: 0 },
         to: { transform: 'scale(1) translateY(0)', opacity: 1 },
-        config: { duration: 700 }
+        config: { duration: 500 }
     });
 
     return (

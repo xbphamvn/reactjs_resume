@@ -35,7 +35,7 @@ export const GlobalTemplate = (props) => {
                         </div>
                     </>
                 )
-            } else if (width <= 991) {
+            } else {
                 return (
                     <>
                         <NavBar />
