@@ -18,9 +18,7 @@ export const GlobalTemplate = (props) => {
         window.onresize = () => {
             setWidth({ width: window.innerWidth })
         }
-    }, [])
-
-    console.log(width);
+    }, []);
 
     return (
         <Route path={restParam.path} render={(propsRoute) => {
