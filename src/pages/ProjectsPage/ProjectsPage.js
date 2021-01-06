@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import projData from '../../assets/data/ProjectData/ProjectData.json';
-import { sgaDisplayProjDetail } from '../../redux/actions/ResumeActions';
-import { ACTIVE_STATUS, ATTRIBUTE_NAME, PROJECT_ALL_BTN } from '../../utils/constants/constants';
+import { actHandleClickMenuItem, sgaDisplayProjDetail } from '../../redux/actions/ResumeActions';
+import { ACTIVE_STATUS, ATTRIBUTE_NAME, MENU_NAME_CONTACT, MENU_NAME_RESUME, PROJECT_ALL_BTN } from '../../utils/constants/constants';
 import { PORTFOLIO_PATH } from '../../utils/global/sysConfig';
 import ProjectsOverlay from '../ProjectsOverlay/ProjectsOverlay';
 import { useSpring, animated as a } from 'react-spring';
@@ -103,10 +103,12 @@ export default function ProjectsPage(props) {
     const handleScroll = (e) => {
         const scrollable = e.target.scrollHeight - window.innerHeight + 50;
         const scrolled = e.target.scrollTop;
-        if(scrolled === scrollable) {
-            props.history.push('/contact');
-        } else if (scrolled === 0) {
-            props.history.push('/resume');
+        if (scrolled === 0) {
+            props.history.push(`/${MENU_NAME_RESUME}`);
+            dispatch(actHandleClickMenuItem(MENU_NAME_RESUME));
+        } else if (scrolled === scrollable) {
+            props.history.push(`/${MENU_NAME_CONTACT}`);
+            dispatch(actHandleClickMenuItem(MENU_NAME_CONTACT));
         }
     }
 

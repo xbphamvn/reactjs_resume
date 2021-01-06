@@ -5,8 +5,13 @@ import Knowledge from '../../components/Knowledge/Knowledge';
 import Clients from '../../components/Clients/Clients';
 import Numbers from '../../components/Numbers/Numbers';
 import { useSpring, animated as a } from 'react-spring';
+import { useDispatch } from 'react-redux';
+import { actHandleClickMenuItem } from '../../redux/actions/ResumeActions';
+import { MENU_NAME_HOME, MENU_NAME_RESUME } from '../../utils/constants/constants';
 
 export default function AboutPage(props) {
+
+    const dispatch = useDispatch();
 
     const displayAnim = useSpring({
         from: { transform: 'scale(0) translateX(100%)', opacity: 0 },
@@ -32,10 +37,12 @@ export default function AboutPage(props) {
     const handleScroll = (e) => {
         const scrollable = e.target.scrollHeight - window.innerHeight + 50;
         const scrolled = e.target.scrollTop;
-        if(scrolled === scrollable) {
-            props.history.push('/resume');
-        } else if (scrolled === 0) {
+        if (scrolled === 0) {
             props.history.push('/');
+            dispatch(actHandleClickMenuItem(MENU_NAME_HOME));
+        } else if (scrolled === scrollable) {
+            props.history.push(`/${MENU_NAME_RESUME}`);
+            dispatch(actHandleClickMenuItem(MENU_NAME_RESUME));
         }
     }
 
@@ -57,7 +64,7 @@ export default function AboutPage(props) {
                                 Because I felt unsuitable for the current industry. So, I decided to look for opportunities in many other professions. And I found a passion in web programming.
                             </p>
                             <p>
-                            My goal is to become a senior full stack developer. So, I will try best myself to improve my work skills everyday. I hope that I will have a chance to join your team to help me reach my goal!
+                                My goal is to become a senior full stack developer. So, I will try best myself to improve my work skills everyday. I hope that I will have a chance to join your team to help me reach my goal!
                             </p>
                         </div>
                         <div className="col-md-12 col-xl-6">

@@ -1,8 +1,13 @@
 import React from 'react';
 import SocialIcon from '../../components/SocialIcon/SocialIcon';
 import { useSpring, animated as a } from 'react-spring';
+import { actHandleClickMenuItem } from '../../redux/actions/ResumeActions';
+import { useDispatch } from 'react-redux';
+import { MENU_NAME_PROJECTS } from '../../utils/constants/constants';
 
 export default function ContactPage(props) {
+
+    const dispatch = useDispatch();
 
     const displayAnim = useSpring({
         from: { transform: 'scale(0) translateY(100%)', opacity: 0 },
@@ -11,12 +16,11 @@ export default function ContactPage(props) {
     });
 
     const handleScroll = (e) => {
-        const scrollable = e.target.scrollHeight - window.innerHeight + 50;
+        // const scrollable = e.target.scrollHeight - window.innerHeight + 50;
         const scrolled = e.target.scrollTop;
-        if(scrolled === scrollable) {
-            // alert('You reached bottom!');
-        } else if (scrolled === 0) {
-            props.history.push('/projects');
+        if (scrolled === 0) {
+            props.history.push(`/${MENU_NAME_PROJECTS}`);
+            dispatch(actHandleClickMenuItem(MENU_NAME_PROJECTS));
         }
     }
 

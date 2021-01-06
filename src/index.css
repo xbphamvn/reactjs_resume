@@ -141,6 +141,38 @@ h6 {
   font-size: 17px;
 }
 
+/* Menu right */
+.menuBar__right {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 24px;
+  height: 100vh;
+  z-index: 7;
+  background-color: rgba(255, 115, 76, 0.5);
+}
+
+.menuBar__rightItem {
+  width: 100%;
+  vertical-align: middle;
+  border-bottom: solid 1px #fff;
+  transition: all .5s;
+}
+
+.menuBar__rightItem > p {
+  color: #555;
+  padding: 15px 0;
+  writing-mode: vertical-rl;
+}
+
+.menuBar__rightItem.active {
+  background-color: rgba(255, 115, 76, 1);
+}
+
+.menuBar__rightItem.active > p {
+  color: #333;
+}
+
 /* Main content */
 .main {
   position: relative;
@@ -238,7 +270,7 @@ h6 {
 /* Show detail content */
 .mainShow__content {
   position: relative;
-  padding: 30px 20px 50px;
+  padding: 30px 20px 360px;
   height: 100%;
   width: 100%;
   overflow-y: auto;
