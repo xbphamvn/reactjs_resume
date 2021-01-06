@@ -2,13 +2,8 @@ import React, { useState } from 'react';
 import skillData from '../../assets/data/ResumeData/SkillData.json';
 import timelineData from '../../assets/data/ResumeData/TimelineData.json';
 import { useSpring, animated as a } from 'react-spring';
-import { MENU_NAME_ABOUT, MENU_NAME_PROJECTS } from '../../utils/constants/constants';
-import { actHandleClickMenuItem } from '../../redux/actions/ResumeActions';
-import { useDispatch } from 'react-redux';
 
 export default function ResumePage(props) {
-
-    const dispatch = useDispatch();
 
     const [skillStatus, setSkillStatus] = useState({
         reactjs: 'active',
@@ -68,20 +63,8 @@ export default function ResumePage(props) {
         config: { duration: 500 }
     });
 
-    const handleScroll = (e) => {
-        const scrollable = e.target.scrollHeight - window.innerHeight + 50;
-        const scrolled = e.target.scrollTop;
-        if (scrolled === 0) {
-            props.history.push(`/${MENU_NAME_ABOUT}`);
-            dispatch(actHandleClickMenuItem(MENU_NAME_ABOUT));
-        } else if (scrolled === scrollable) {
-            props.history.push(`/${MENU_NAME_PROJECTS}`);
-            dispatch(actHandleClickMenuItem(MENU_NAME_PROJECTS));
-        }
-    }
-
     return (
-        <a.section style={displayAnim} className="mainShow__content" id="resume" onScroll={handleScroll}>
+        <a.section style={displayAnim} className="mainShow__content" id="resume">
             <div className="mainShow__content--title">
                 <h2>Resume</h2>
                 <span>Over 30 frontend projects</span>

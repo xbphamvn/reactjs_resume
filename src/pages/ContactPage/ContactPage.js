@@ -1,13 +1,8 @@
 import React from 'react';
 import SocialIcon from '../../components/SocialIcon/SocialIcon';
 import { useSpring, animated as a } from 'react-spring';
-import { actHandleClickMenuItem } from '../../redux/actions/ResumeActions';
-import { useDispatch } from 'react-redux';
-import { MENU_NAME_PROJECTS } from '../../utils/constants/constants';
 
 export default function ContactPage(props) {
-
-    const dispatch = useDispatch();
 
     const displayAnim = useSpring({
         from: { transform: 'scale(0) translateY(100%)', opacity: 0 },
@@ -15,17 +10,8 @@ export default function ContactPage(props) {
         config: { duration: 500 }
     });
 
-    const handleScroll = (e) => {
-        // const scrollable = e.target.scrollHeight - window.innerHeight + 50;
-        const scrolled = e.target.scrollTop;
-        if (scrolled === 0) {
-            props.history.push(`/${MENU_NAME_PROJECTS}`);
-            dispatch(actHandleClickMenuItem(MENU_NAME_PROJECTS));
-        }
-    }
-
     return (
-        <a.section style={displayAnim} className="mainShow__content" id="contact" onScroll={handleScroll}>
+        <a.section style={displayAnim} className="mainShow__content" id="contact">
             <div className="mainShow__content--title">
                 <h2>Contact</h2>
                 <span>Get in Touch</span>

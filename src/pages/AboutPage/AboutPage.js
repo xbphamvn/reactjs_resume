@@ -5,13 +5,8 @@ import Knowledge from '../../components/Knowledge/Knowledge';
 import Clients from '../../components/Clients/Clients';
 import Numbers from '../../components/Numbers/Numbers';
 import { useSpring, animated as a } from 'react-spring';
-import { useDispatch } from 'react-redux';
-import { actHandleClickMenuItem } from '../../redux/actions/ResumeActions';
-import { MENU_NAME_HOME, MENU_NAME_RESUME } from '../../utils/constants/constants';
 
 export default function AboutPage(props) {
-
-    const dispatch = useDispatch();
 
     const displayAnim = useSpring({
         from: { transform: 'scale(0) translateX(100%)', opacity: 0 },
@@ -34,20 +29,8 @@ export default function AboutPage(props) {
         )))
     );
 
-    const handleScroll = (e) => {
-        const scrollable = e.target.scrollHeight - window.innerHeight + 50;
-        const scrolled = e.target.scrollTop;
-        if (scrolled === 0) {
-            props.history.push('/');
-            dispatch(actHandleClickMenuItem(MENU_NAME_HOME));
-        } else if (scrolled === scrollable) {
-            props.history.push(`/${MENU_NAME_RESUME}`);
-            dispatch(actHandleClickMenuItem(MENU_NAME_RESUME));
-        }
-    }
-
     return (
-        <a.section style={displayAnim} className="mainShow__content" id="about" onScroll={handleScroll}>
+        <a.section style={displayAnim} className="mainShow__content" id="about">
             <div className="mainShow__content--title">
                 <h2>About Me</h2>
                 <span>Frontend developer</span>
