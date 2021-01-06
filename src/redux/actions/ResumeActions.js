@@ -8,7 +8,12 @@ export const actOpenProjectDetail = (projItem) => ({
 export const actCloseProjectDetail = (projItem) => ({
     type: CLOSE_PROJECT_DETAIL,
     projItem
-})
+});
+
+// export const actScrollToProjectsPage = (component) => ({
+//     type: ACT_SCROLL_TO_PROJECT,
+//     component
+// })
 
 //Saga action
 export const sgaDisplayProjDetail = (projItem) => ({

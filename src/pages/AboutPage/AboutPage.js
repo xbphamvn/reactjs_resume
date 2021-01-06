@@ -29,8 +29,18 @@ export default function AboutPage(props) {
         )))
     );
 
+    const handleScroll = (e) => {
+        const scrollable = e.target.scrollHeight - window.innerHeight + 50;
+        const scrolled = e.target.scrollTop;
+        if(scrolled === scrollable) {
+            props.history.push('/resume');
+        } else if (scrolled === 0) {
+            props.history.push('/');
+        }
+    }
+
     return (
-        <a.section style={displayAnim} className="mainShow__content" id="about">
+        <a.section style={displayAnim} className="mainShow__content" id="about" onScroll={handleScroll}>
             <div className="mainShow__content--title">
                 <h2>About Me</h2>
                 <span>Frontend developer</span>

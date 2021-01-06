@@ -100,9 +100,19 @@ export default function ProjectsPage(props) {
         config: { duration: 500 }
     });
 
+    const handleScroll = (e) => {
+        const scrollable = e.target.scrollHeight - window.innerHeight + 50;
+        const scrolled = e.target.scrollTop;
+        if(scrolled === scrollable) {
+            props.history.push('/contact');
+        } else if (scrolled === 0) {
+            props.history.push('/resume');
+        }
+    }
+
     return (
         <>
-            <a.section style={displayAnim} className="mainShow__content" id="projects">
+            <a.section style={displayAnim} className="mainShow__content" id="projects" onScroll={handleScroll}>
                 <div className="mainShow__content--title">
                     <h2>Portfolio</h2>
                     <span>Representative projects</span>

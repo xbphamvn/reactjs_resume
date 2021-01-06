@@ -9,8 +9,18 @@ export default function HomePage(props) {
         config: { duration: 500 }
     });
 
+    const handleScroll = (e) => {
+        const scrollable = e.target.scrollHeight - window.innerHeight + 50;
+        const scrolled = e.target.scrollTop;
+        if(scrolled === scrollable) {
+            // alert('You reached bottom!');
+        } else if (scrolled === 0) {
+            // props.history.push('/projects');
+        }
+    }
+
     return (
-        <a.section style={displayAnim} className="showHomePage" id="home">
+        <a.section style={displayAnim} className="showHomePage" id="home" onScroll={handleScroll}>
             <div className="showHomePage__bg">
                 <video playsInline="playsinline" autoPlay="autoplay" loop="loop">
                     <source src="./img/homepage/background.mp4" type="video/mp4" />

@@ -63,8 +63,18 @@ export default function ResumePage(props) {
         config: { duration: 500 }
     });
 
+    const handleScroll = (e) => {
+        const scrollable = e.target.scrollHeight - window.innerHeight + 50;
+        const scrolled = e.target.scrollTop;
+        if(scrolled === scrollable) {
+            props.history.push('/projects');
+        } else if (scrolled === 0) {
+            props.history.push('/about');
+        }
+    }
+
     return (
-        <a.section style={displayAnim} className="mainShow__content" id="resume">
+        <a.section style={displayAnim} className="mainShow__content" id="resume" onScroll={handleScroll}>
             <div className="mainShow__content--title">
                 <h2>Resume</h2>
                 <span>Over 30 frontend projects</span>

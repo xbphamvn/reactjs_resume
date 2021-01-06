@@ -10,8 +10,18 @@ export default function ContactPage(props) {
         config: { duration: 500 }
     });
 
+    const handleScroll = (e) => {
+        const scrollable = e.target.scrollHeight - window.innerHeight + 50;
+        const scrolled = e.target.scrollTop;
+        if(scrolled === scrollable) {
+            // alert('You reached bottom!');
+        } else if (scrolled === 0) {
+            props.history.push('/projects');
+        }
+    }
+
     return (
-        <a.section style={displayAnim} className="mainShow__content" id="contact">
+        <a.section style={displayAnim} className="mainShow__content" id="contact" onScroll={handleScroll}>
             <div className="mainShow__content--title">
                 <h2>Contact</h2>
                 <span>Get in Touch</span>
