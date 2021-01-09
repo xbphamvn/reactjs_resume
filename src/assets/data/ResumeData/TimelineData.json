@@ -10,7 +10,7 @@
     {
         "title": "Education", 
         "detail": [
-            {"milestone": "May 2020 - Current", "title": "Student", "label": "CyberLearn.Vn Academy", "content": ["Frontend Developer Training Course"]},
+            {"milestone": "May 2020 - Current", "title": "Student", "label": "CyberLearn.Vn Academy", "content": ["Programming course: how to thinking in programming, problem-solving, Java, OOP.","Frontend Foundation Course: ReactJs, HTML, CSS, JS(ES5/ES6), SASS/SCSS, Ajax, Git..."]},
             {"milestone": "Nov 2017 - Current", "title": "Student", "label": "Singapore International Academy", "content": ["English for Life Training Course"]},
             {"milestone": "Aug 2007 - Feb 2012", "title": "Student", "label": "National University of Civil Engineering", "content": ["Construction Machinery Training Course"]}
         ]

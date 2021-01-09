@@ -1,6 +1,6 @@
 [
-    {"title": "react js", "projectNum": "Over 10 projects", "name": "reactjs", "imgSrc": "./img/knowledge/reactjs.svg", "knowledgeList": ["React Class/Function", "React redux saga - thunk", "React Router & API", "React HOC etc,."]},
-    {"title": "html", "projectNum": "Over 20 projects", "name": "html", "imgSrc": "./img/knowledge/html_five.svg", "knowledgeList": ["HTML/HTML5", "Bootstrap", "Animation", "Multi responsive etc,."]},
-    {"title": "css", "projectNum": "Over 20 projects", "name": "css", "imgSrc": "./img/knowledge/css_three.svg", "knowledgeList": ["CSS3/SASS/SCSS", "Bootstrap", "Animation", "Multi responsive etc,."]},
-    {"title": "javascript", "projectNum": "Over 20 projects", "name": "javascript", "imgSrc": "./img/knowledge/javascript.svg", "knowledgeList": ["ES5/ES6", "Prototype", "Ajax", "JQuery etc,."]}
+    {"title": "react js", "projectNum": "Over 10 mini/foundation projects", "name": "reactjs", "imgSrc": "./img/knowledge/reactjs.svg", "knowledgeList": ["React Class/Function", "React redux saga - thunk", "React Router & API", "React HOC etc,."]},
+    {"title": "html", "projectNum": "Over 20 mini/foundation projects", "name": "html", "imgSrc": "./img/knowledge/html_five.svg", "knowledgeList": ["HTML/HTML5", "Bootstrap", "Animation", "Multi responsive etc,."]},
+    {"title": "css", "projectNum": "Over 20 mini/foundation projects", "name": "css", "imgSrc": "./img/knowledge/css_three.svg", "knowledgeList": ["CSS3/SASS/SCSS", "Bootstrap", "Animation", "Multi responsive etc,."]},
+    {"title": "javascript", "projectNum": "Over 20 mini/foundation projects", "name": "javascript", "imgSrc": "./img/knowledge/javascript.svg", "knowledgeList": ["ES5/ES6", "Prototype", "Ajax", "JQuery etc,."]}
 ]
